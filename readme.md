@@ -1,19 +1,66 @@
-Kazys Tatarunas - RM564020
-Eduardo Viudes - RM564075
-Victor Tadashi - RM563582
-Lucas Marson - RM563975
-Frederico de Paulo - RM562109
+# 🍇 Sistema de Monitoramento Ambiental - Vinheria Agnello
 
-Este código implementa um sistema de monitoramento ambiental para a Vinheria Agnello, utilizando sensores simulados de luminosidade (LDR), temperatura e umidade, todos conectados a entradas analógicas de um Arduino.
+## 👥 Membros do grupo
 
-Ele lê os valores dos sensores e calcula médias móveis para suavizar as medições. Com base nessas médias:
+- Kazys Tatarunas - RM564020  
+- Eduardo Viudes - RM564075  
+- Victor Tadashi - RM563582  
+- Lucas Marson - RM563975  
+- Frederico de Paulo - RM562109  
 
-Controla LEDs (verde, amarelo e vermelho) para indicar as condições de luminosidade, temperatura e umidade.
+## 📋 Descrição
 
-Ativa um buzzer em caso de condições fora dos padrões ideais.
+Este projeto implementa um sistema de monitoramento ambiental para a **Vinheria Agnello**, utilizando sensores analógicos simulados de:
 
-Exibe mensagens em um display LCD rotativamente a cada 5 segundos, informando o estado de cada variável (luminosidade, temperatura ou umidade).
+- **Luminosidade (LDR)**
+- **Temperatura**
+- **Umidade**
 
-Também imprime os dados no monitor serial para visualização no computador.
+Os sensores estão conectados a um **Arduino**, que realiza leituras constantes, calcula **médias móveis** para suavizar as medições e toma decisões com base nesses dados.
 
-O código está organizado em funções separadas para cada tipo de verificação (luminosidade, temperatura e umidade), melhorando a clareza e a manutenção do programa.
+## ⚙️ Funcionalidades
+
+- 🔎 **Leitura de Sensores**  
+  Coleta contínua de dados dos sensores de luminosidade, temperatura e umidade.
+
+- 📉 **Média Móvel**  
+  Suavização dos valores dos sensores para evitar variações bruscas.
+
+- 🔴🟡🟢 **Sinalização com LEDs**  
+  - LED **verde**: Condição ideal  
+  - LED **amarelo**: Alerta  
+  - LED **vermelho**: Condição crítica  
+
+- 🔊 **Buzzer de Alerta**  
+  Ativado quando qualquer uma das variáveis estiver fora dos padrões ideais.
+
+- 🖥️ **Display**  
+  Exibe mensagens rotativas a cada 5 segundos, informando o estado atual de:
+  - Luminosidade  
+  - Temperatura  
+  - Umidade  
+
+- 🧾 **Saída Serial**  
+  Exibe os dados em tempo real no monitor serial para visualização no computador.
+
+## 🔌 Componentes Utilizados
+
+- Arduino Uno (ou similar)
+- Sensor de luminosidade (LDR)
+- Sensor de temperatura e umidade (simulados via potenciômetro ou sensores reais)
+- LEDs: verde, amarelo e vermelho
+- Buzzer
+- Display
+- Resistores, fios e protoboard
+
+## 🛠️ Como Usar
+
+1. Conecte os sensores e atuadores ao Arduino conforme o esquema do projeto.
+2. Faça o upload do código para a placa utilizando a IDE do Arduino.
+3. Abra o monitor serial para acompanhar as leituras em tempo real.
+4. Observe os LEDs e o display LCD para o estado atual do ambiente.
+5. O buzzer será ativado automaticamente em situações críticas.
+
+## ✅ Objetivo
+
+O sistema visa auxiliar a Vinheria Agnello no **monitoramento das condições ambientais**, garantindo um ambiente ideal para a conservação dos vinhos.
