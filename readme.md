@@ -28,6 +28,8 @@ Abaixo está a imagem representando o circuito montado no Tinkercad:
 
 🔗 **[Clique aqui para abrir o projeto no Tinkercad](https://www.tinkercad.com/things/5TLWpyhApiF-vinheria-cp2)**
 
+📹 **[Clique aqui para assistir ao vídeo demonstrativo do projeto](https://youtube.com/shorts/RvmFuulRyrk?si=6f_7WM8adlQp0OXd)**
+
 ## ⚙️ Funcionalidades
 
 - 🔎 **Leitura de Sensores**  
