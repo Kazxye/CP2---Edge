@@ -18,6 +18,16 @@ Este projeto implementa um sistema de monitoramento ambiental para a **Vinheria 
 
 Os sensores estão conectados a um **Arduino**, que realiza leituras constantes, calcula **médias móveis** para suavizar as medições e toma decisões com base nesses dados.
 
+## 🖼️ Esquema do Circuito
+
+Abaixo está a imagem representando o circuito montado no Tinkercad:
+
+![Esquema do Circuito - Tinkercad](./images/...)
+
+> 💡 *Caso não consiga visualizar a imagem, você pode acessar diretamente o projeto no Tinkercad pelo link abaixo:*
+
+🔗 **[Clique aqui para abrir o projeto no Tinkercad](https://www.tinkercad.com/things/5TLWpyhApiF-vinheria-cp2)**
+
 ## ⚙️ Funcionalidades
 
 - 🔎 **Leitura de Sensores**  
