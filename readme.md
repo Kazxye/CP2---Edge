@@ -22,7 +22,7 @@ Os sensores estão conectados a um **Arduino**, que realiza leituras constantes,
 
 Abaixo está a imagem representando o circuito montado no Tinkercad:
 
-![Esquema do Circuito - Tinkercad](./images/...)
+![Esquema do Circuito - Tinkercad](./images/tinkercad.png)
 
 > 💡 *Caso não consiga visualizar a imagem, você pode acessar diretamente o projeto no Tinkercad pelo link abaixo:*
 
